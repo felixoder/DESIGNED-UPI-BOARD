@@ -1,0 +1,120 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Roboto+Slab:wght@200&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Roboto+Slab:wght@200&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Mukta&family=Pacifico&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Roboto+Slab:wght@200&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Handjet:wght@300&family=Mukta&family=Pacifico&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Roboto+Slab:wght@200&family=Ubuntu:wght@500&display=swap');
+
+
+
+
+
+
+
+
+.container{
+    height: 678px;
+    width: 400px;
+    border-radius: 9px;
+    background-color:rgb(241, 239, 239)
+   /* transform: rotate(10deg);  if you want to rotate*/
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    height: 381px;
+   background-image: url("qrt.png");
+    background-size: cover;
+    border-radius: 9px;
+    margin: 9px 9px;
+    /* margin-right: 9px; */
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url("hello\ world\ id.jpg");
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+} 
+.name h3{
+    font-family: 'Handjet', cursive;
+    font-size: 20px;
+    
+}
+.para h3{
+     text-align: center;
+     margin: 10px 10px;
+  
+     font-family: 'Ubuntu', sans-serif;
+
+}
+.brands{
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.upi{
+    height: 65px;
+    width: 30px;
+    background-image: url("UPI_logo_PNG_lyp5s5.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+.paytm{
+    height: 75px;
+    width: 40px;
+
+    background-image: url("paytm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.phone{
+    height: 30px;
+    width: 69px;
+    background-image: url("phonepay.png.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    
+    
+}
+.gpay{
+    height: 30px;
+    width: 35px;
+    
+    
+    background-image: url("gpay.png.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    
+}
+.scan{
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.scan p{
+    font-family: 'Mukta', sans-serif;
+
+}
+.scan h4{
+    font-family: 'Dancing Script', cursive;
+
+}
+.coffee{
+    height: 50px;
+    width: 50px;
+    background-image: url(coffee.png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
